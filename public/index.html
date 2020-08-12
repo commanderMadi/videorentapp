@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Genres Website</title>
+    </head>
+    <body>
+        <h1>Hello everyone.</h1>
+        <h2>Add Movie</h2>
+        <form id="addmovie">
+            <label>Genre:</label>
+            <input type="text" id="movie_genre" name="moviegenre" />
+            <label>Movie Name:</label>
+
+            <input type="text" id="movie_name" name="moviename" />
+            <label>Movie Year:</label>
+
+            <input type="text" id="movie_year" name="movieyear" />
+            <input type="submit" />
+        </form>
+
+        <h2>Search Genre</h2>
+        <form id="searchgenre">
+            <label>Genre:</label>
+            <input type="text" id="genre_search" name="genre_search" />
+            <input type="submit" />
+        </form>
+
+        <div id="genre_search_results"></div>
+        <script src="app.js"></script>
+    </body>
+</html>
